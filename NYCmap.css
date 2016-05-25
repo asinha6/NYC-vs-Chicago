@@ -1,0 +1,98 @@
+.Cfeatures{
+    fill: cyan;
+    stroke: #777;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+.NYfeatures{
+    fill: #4e4ac4;
+    stroke: #777;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: left;			
+    width: 175px;					
+    height: 100px;					
+    padding: 10px;				
+    font: 14px sans-serif;		
+    background: lightsteelblue;
+    border: 5px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+.PopButton {
+-moz-box-shadow: 0px 0px 0px 2px #3182bd;
+	-webkit-box-shadow: 0px 0px 0px 2px #3182bd;
+	box-shadow: 0px 0px 0px 2px #3182bd;
+	background-color:#6baed6;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.PopButton:hover {
+  background-color: #08519c;
+  text-decoration: none;
+}
+
+.CrimeButton {
+	-moz-box-shadow: 0px 0px 0px 2px #756bb1;
+	-webkit-box-shadow: 0px 0px 0px 2px #756bb1;
+	box-shadow: 0px 0px 0px 2px #756bb1;
+	background-color:#9e9ac8;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.CrimeButton:hover {
+  background: #54278f;
+  text-decoration: none;
+}
+
+.LifeButton {
+	-moz-box-shadow: 0px 0px 0px 2px rgb(49,163,84);
+	-webkit-box-shadow: 0px 0px 0px 2px rgb(49,163,84);
+	box-shadow: 0px 0px 0px 2px rgb(49,163,84);
+	background-color:rgb(116,196,118);
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:19px;
+	padding:7px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.LifeButton:hover {
+  background: rgb(0,109,44);
+  text-decoration: none;
+}
